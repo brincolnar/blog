@@ -1,0 +1,31 @@
+footer {
+    font-family: "Source Sans Pro";
+    background-color: black;
+    padding: 10px 0;
+}
+
+footer img {
+    border-radius: 0px;
+}
+
+.footer-centered {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-centered a {
+    color: #4BFF00;
+    text-decoration: none;
+}
+
+.footer-centered a {
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 500px) {
+    .footer-centered a {
+        display: block;
+        padding: 5px 0px;
+    }
+}

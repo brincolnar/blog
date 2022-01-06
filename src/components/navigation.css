@@ -1,0 +1,101 @@
+.navigation {
+    background-color: black;
+    font-family: "Source Sans Pro";
+    overflow: hidden;
+    font-size: 25px;
+}
+
+body {
+    margin: 0;
+}
+
+.navigation a {
+    color: #4BFF00;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #4BFF00;
+}
+
+.logo {
+    float: left;
+    display: block;
+    margin-left: 10px;
+}
+
+.centered {
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 13px;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 920px){
+    .icon {
+        display: block;
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+    
+    .centered a {
+        display: none;
+    }
+
+    .navigation a.icon {
+        float: right;
+        display: block;
+    }
+
+    .centered {
+        display: block;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 920px){
+
+    .navigation.responsive {
+        position: relative;
+    }
+
+    .navigation.responsive .icon {
+        margin-top: 10px;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navigation.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    .navigation.responsive.logo {
+        display: block;
+    }
+
+    .centered {
+        width: 100%;
+        margin-top: 20px;
+
+    }
+
+    .centered a {
+        margin: 10px 0;
+    }
+
+}

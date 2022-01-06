@@ -1,0 +1,9 @@
+.about {
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 650px) {
+    .about {
+        font-size: 1em;    
+    }
+}

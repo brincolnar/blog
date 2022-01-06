@@ -1,0 +1,18 @@
+.site-content {
+    font-size: 2em;
+}
+
+.hero-image img {
+    border-radius: 0px;
+}
+
+@media screen and (max-width: 650px) {
+    span {
+        display: inline-block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 1.4em;
+    }
+}

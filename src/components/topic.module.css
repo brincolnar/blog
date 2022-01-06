@@ -1,0 +1,7 @@
+.topic-span {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+}

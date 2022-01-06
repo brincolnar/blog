@@ -1,0 +1,9 @@
+.image-wrapper {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .image-wrapper img {
+        width: 100%;
+    }
+}

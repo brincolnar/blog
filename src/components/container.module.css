@@ -1,0 +1,15 @@
+main {
+    width: 85%;
+    margin: 0 auto;
+    font-family: "Source Sans Pro";
+    /* color: black; */
+    font-size: 1.3em;
+}
+
+a {
+    color: black;
+}
+
+.page-title {
+    margin-top: 20px;
+}
